@@ -1,10 +1,16 @@
-
+*{
+    padding: 0;
+    margin: 0;
+}
 .nav {
     background-color: #333333;
     color: white;
+    height: 70px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    font-style:'Roboto', sans-serif;
+    padding: 0px 20px;
+    font-style:'Roboto';
 
 }
 .nav-title {
@@ -13,9 +19,9 @@
 }
 .nav-links{
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     list-style-type: none;
+    gap: 20px;
    
     
 }
@@ -27,8 +33,8 @@ a{
 
 }
 .btn{
-    box-shadow: 3px solid black;
-    margin-right: 5px;
+    box-shadow: 3px 3px 3px 3px black;
     background-color: aqua;
     color: white;
+    border: 2px solid black;
 }
