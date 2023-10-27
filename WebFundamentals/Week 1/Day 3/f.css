@@ -1,0 +1,43 @@
+.nav {
+    background-color: #333333;
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    border-radius: 10px;
+}
+.nav-title {
+    display: flex;
+    margin: 10px;   
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+    background-color: #333333;
+    color: white;
+    border-radius: 10px;
+    border-color: blue;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.linkdiv{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color:aqua;
+    border-radius: 10px;
+}
