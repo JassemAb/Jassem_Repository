@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+      font-family: 'Roboto ' , sans-serif;
+      background-color: white;
+  }
+  .navbar {
+      background-color: gray;
+      width: 1000px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content:space-between;
+      margin: 0 auto;
+      padding: 0px 20px;
+  }
+  .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      list-style-type: none;
+      justify-content:left;
+  }
+  .container {
+      width: 1000px;
+      margin: 0 auto;
+      display: flex;
+     
+  }
+  .left {
+      flex: 2;
+      margin: 10px;
+      padding: 10px;
+  }
+  .right {
+      flex: 1;
+      margin: 10px ;
+      padding: 10px;
+  }
+  .user {
+      width: 100%;
+      border: 2px solid gray;
+      border-radius: 10px;
+      margin-bottom: 20px;
+  
+  }
+  .user-header {
+      background-color: rgb(23, 162, 184);
+      height: 125px;
+      margin-bottom: 70px;
+  
+  }
+  .user-header img {
+      border-radius: 100%;
+      height: 200px;
+      margin-top: 20px;
+      margin-left: 20px;
+      border: 2px solid gray;
+  }
+  .user-body {
+      padding: 20px;
+  }
+   .icons {
+      height: 20px;
+  
+  
+      }
+      .m20{
+          margin: 10px;
+      }
+.card{
+    border: 2px solid gray;
+}
+      .card-header{
+        background-color: rgb(85, 85, 85);
+        color: white;
+        height: 20px;
+        display: flex;
+        align-items:center;
+        margin: 0px;
+      }
+
+      .card-body{
+        background-color: white;
+        margin: 7px;
+        align-items: center;
+        justify-content: center;
+        
+      }
+      .number{
+        background-color: red;
+        border-radius: 50%;
+        padding: 0px 5px;
+      }
+
+     .button{
+        color: white;
+        background-color: gray;
+     }
+     
+
+     .card-header{
+        height: 20px;
+     }
+
+     .m21{
+        margin: 10px;
+        display: contents;
+     }
+
+     .card-bod{
+        justify-content: space-between; 
+     }
+     .todd{
+        justify-content: space-between;
+     }
+     .todd >img {
+        width: 25px;
+        height: 25px;
+        border-radius: 35px;
+       
+     }
+     .accept>img{
+        width: 25px;
+        height: 25px;
+        gap: 20px;
+     }
+     .accept{
+        width: 30%;
+        justify-content: right;
+     }
+
+     .phil>img{
+        width: 25px;
+        height: 25px;
+        border-radius: 25px;
+     }
+
+     .refuse>img{
+        width: 25px;
+        height: 25px;
+        gap: 20px;
+     }
+
+     .adrien-s{
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+        width: 50px;
+        align-items: center;
+     }
+
+     .anne-s{
+      display: flex;
+      justify-content: space-between;
+      height:50px;
+      width: 50px;
+      align-items:center;
+     }
+
+     .alayne-s{
+      display: flex;
+      justify-content: space-between;
+      height:50px;
+      width: 50px;
+      align-items:center;
+     }
+
+     .arry-s{
+      display: flex;
+      justify-content: space-between;
+      height:50px;
+      width: 50px;
+      align-items:center;
+     }
+
+     .card-head{
+        background-color: rgb(85, 85, 85);
+        color: white;
+        height: 20px;
+        display: flex;
+        align-items:center;
+        margin: 0px;
+     }
+     
+     .adrien-s>img{
+        width: 45px;
+        height: 45px;
+        margin: 0 auto;
+        border-radius: 40px;
+        margin-left: 10px;
+     }
+
+     .anne-s>img{
+        width: 45px;
+        height: 45px;
+        border-radius: 40px;
+        margin: 0 auto;
+        margin-left: 10px;
+     }
+
+     .alayne-s>img{
+      width: 45px;
+      height: 45px;
+      border-radius: 40px;
+      margin: 0 auto;
+      margin-left: 10px;
+     }
+
+     .arry-s>img{
+      width: 45px;
+      height: 45px;
+      border-radius: 40px;
+      margin: 0 auto;
+      margin-left: 10px;
+      
+     }
+     .card-head{
+      border: 2px solid gray;
+      border:grey;
+      background-color: rgb(48, 46, 46);
+     }
+
+     .users{
+      height: 30px;
+      width: 350px;
+      border: 3px solid black
+      
+     }
+     
+   .numbers {
+      width: 25px;
+      height: 25px;
+      border-radius: 25px;
+
+   }
+
+   .right2{
+      margin-right: 25px;
+      height: 50px;
+   }
+   
+
+   .pics{
+      height: 100px;
+      width: 50px;
+      border: 120px;
+   }

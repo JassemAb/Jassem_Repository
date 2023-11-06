@@ -1,0 +1,29 @@
+.btn{
+    border-radius: 100px;
+    background-color: white;
+    color: rgb(81, 190, 153);
+    height: 50px;
+    width: 200px;
+}    
+
+.nav {
+    background-color: #333333;
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    font-style:'Roboto';
+
+}
+.nav-title {
+    display: flex;
+    
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+}

@@ -1,0 +1,12 @@
+button{
+    border-radius: 100px;
+    background-color: white;
+    color: rgb(81, 190, 153);
+    height: 50px;
+    width: 200px;
+}
+
+ button{
+    height: 100px;
+    width: 25px;
+}
