@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title-card{
+    margin-top: 70px;
+    margin-left: 100px;
+    justify-content: center;
+}
+.card{
+    height: 110px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 25px;
+    border: 1px black;
+    border-style: ridge;
+}
+
+.btn{
+    border-radius: 30px;
+}
+
+.card2{
+    height: 110px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 25px;
+    border: 1px black;
+    border-style: ridge;
+}
+
+.card3{
+    height: 110px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 25px;
+    border: 1px black;
+    border-style: ridge;
+    margin-bottom: 25px;
+}
