@@ -13,3 +13,4 @@ has_voted = True
         #  NoneType
 permit = None
 print(first_name, last_name)
+# F-string
