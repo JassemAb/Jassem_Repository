@@ -34,8 +34,12 @@ const expected5 = "";
 // create the function and decide what params it needs and what it will return
 function join(arr, separator) {
     var result=""
+    if(arr.length==0){
+        return result
+    }
     for(var i=0; i<arr.length;i++){
-        console.log(arr[i]);
+        if(i==arr.length-1)
+        // console.log(arr[i]);
         result+=arr[i]+separator
     }
     return result
