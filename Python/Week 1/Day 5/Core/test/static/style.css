@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.careau{
+    height: 200px;
+
+    width: 200px;
+    background-color: blueviolet;
+    border: black 2px solid;
+}

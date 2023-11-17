@@ -21,7 +21,7 @@ def hello_dojo():
 
 
 @app.route('/say/<name>')          # The "@" decorator associates this route with the function immediately following
-def hello_flask(name):
+def hello_name(name):
     return f'Hi {name}!' 
 
 @app.route('/repeat/<int:number>/<world>')
