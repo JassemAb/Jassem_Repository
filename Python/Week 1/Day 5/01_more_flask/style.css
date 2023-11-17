@@ -1,0 +1,17 @@
+.container{
+    margin: 0 auto;
+    width: 900px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.circle{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    border: 3px solid black;
+    border-radius: 100%;
+}
