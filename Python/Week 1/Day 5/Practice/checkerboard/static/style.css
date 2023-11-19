@@ -19,7 +19,7 @@ h1{
 }
 
 .check{
-     border-collapse: collapse;
+    border-collapse: collapse;
     height: 360px;
     width: 420px;
 }
@@ -27,4 +27,4 @@ h1{
 td{
     width: 50px;
     height: 15px;
-} 
+}
