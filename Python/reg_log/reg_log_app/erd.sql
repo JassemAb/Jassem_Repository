@@ -1,0 +1,1 @@
+SELECT * FROM log_reg_db.users;
