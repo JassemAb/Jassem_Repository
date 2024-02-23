@@ -1,5 +1,5 @@
 class BankAccount:
-    #A class to represent a banc account.
+    #A class to represent a bank account.
 
     def __init__(self, balance=0, interest_rate=0.01):
         self.balance = balance
