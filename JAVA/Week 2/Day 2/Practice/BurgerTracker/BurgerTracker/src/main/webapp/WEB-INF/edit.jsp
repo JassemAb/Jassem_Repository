@@ -10,30 +10,8 @@
 <title>Burger Tracker</title>
 </head>
 <body style="margin:10vw;">
-<h1>Burger Tracker</h1>
-<table class="table table-striped table-bordered">
-	<thead>
-		<tr>
-			<th>Burger Name</th>
-			<th>Restaurant Name</th>
-			<th>Rating (out of 5)</th>
-			<th>Actions</th>
-		</tr>
-	</thead>
-	<tbody>
-		<c:forEach var="burger" items="${burgers}">
-			<tr>
-				<td><c:out value="${burger.name}"/></td>
-				<td><c:out value="${burger.restaurant}"/></td>
-				<td><c:out value="${burger.rating}"/></td>
-				<td><a href="/edit/${burger.id}">edit</a><td/>
-			</tr>
-		</c:forEach>
-	</tbody>
-</table>
-<br>
-<h2>Add new burger</h2>
-<form:form action="/addBurger" mode="post" modelAttribute="burger">
+<h2>Edit Burger</h2>
+<form:form action="/edit/${burger.id}" mode="put" modelAttribute="burger">
 	<div>
 		<form:label path="name">Burger Name:</form:label><br>
 		<form:errors path="name" class="text-danger"/>
