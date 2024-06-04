@@ -26,8 +26,6 @@ function First(props) {
   </tbody>
  
   </fieldset>
- }
-  
- )}
+ }))}
 
 export default First

@@ -1,7 +1,7 @@
 from flask_app.config.mysqlconnection import connectToMySQL
 from flask_app import DATABASE
 from flask import flash
-from flask_app.models import user_model
+# from flask_app.models import user_model
 
 class Recipe:
     def __init__(self,data):
@@ -12,7 +12,7 @@ class Recipe:
         self.date_made=data["date_made"]
         self.under_30=data["under_30"]
         self.description=data["description"]
-        self.poster=user_model.User.get_by_id({'id':self.user_id})
+        # self.poster=user_model.User.get_by_id({'id':self.user_id})
         
     
     @classmethod

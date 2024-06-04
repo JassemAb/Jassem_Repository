@@ -18,7 +18,7 @@
             <c:forEach var="oneFruit" items="${fruits}">
                 <tr>
                     <td><c:out value="${oneFruit.getName()}"/></td>
-                    <br/>
+                      <br/>
                     <td><c:out value="${oneFruit.getPrice()}"/></td>
                 </tr>
             </c:forEach>

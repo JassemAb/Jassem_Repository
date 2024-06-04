@@ -11,7 +11,7 @@
     <h1>Here's Your Omikuji !  </h1>
     <p style="background: blue ; color:white ; ">In ${sessionScope.number} Years
         , You Will Live In ${sessionScope.namecity} With ${sessionScope.namereal}
-        As Your Roomate , ${sessionScope.hobby} for a living .
+        As Your Room mate, ${sessionScope.hobby} for a living .
         The Next Time You See A ${sessionScope.type} , you will have good luck.
         Also , ${sessionScope.something}.
     </p>

@@ -7,7 +7,7 @@
       background-color: white;
   }
   .navbar {
-      background-color: gray;
+      background-color: rgb(0, 0, 0);
       width: 1000px;
       height: 80px;
       display: flex;
@@ -15,6 +15,7 @@
       justify-content:space-between;
       margin: 0 auto;
       padding: 0px 20px;
+      color: white;
   }
   .nav-links {
       display: flex;
@@ -22,6 +23,8 @@
       gap: 20px;
       list-style-type: none;
       justify-content:left;
+      color: white;
+      font-weight: bold;
   }
   .container {
       width: 1000px;
@@ -95,9 +98,9 @@
         padding: 0px 5px;
       }
 
-     .button{
+     .leftnavbar.button{
         color: white;
-        background-color: gray;
+        background-color: rgb(38, 177, 202);
      }
      
 
@@ -224,7 +227,7 @@
      }
 
      .users{
-      height: 30px;
+      height: 274px;
       width: 350px;
       border: 3px solid black
       
@@ -247,4 +250,8 @@
       height: 100px;
       width: 50px;
       border: 120px;
+   }
+
+   .link{
+      margin: 150px 100px 20px;
    }

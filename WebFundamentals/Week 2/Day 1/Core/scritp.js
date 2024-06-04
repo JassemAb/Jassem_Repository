@@ -1,1 +1,2 @@
-console.log (active+++);
+console.log ("hello");
+
