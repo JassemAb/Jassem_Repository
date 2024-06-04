@@ -18,55 +18,29 @@
 <title>Title</title>
 </head>
 <body>
-	<h1 style="margin-left:630px;">Save Travels</h1>
-	<table class="table table-striped">
-		<thead>
-			<tr>
-				<th>Expense</th>
-				<th>Vendor</th>
-				<th>Amount</th>
-			</tr>
-		</thead>
-		<tbody>
-			<c:forEach var="oneItem" items="${allTravels}">
-				<tr>
-					<td><a href="/travel/${oneItem.id}">${oneItem.name}</a></td>
-					<td>${oneItem.vendor}</td>
-					<td>${oneItem.amount}</td>
-					<td>${oneItem.description}</td>
-					<td><form action="/travels/edit/${oneItem.id}" method="GET">
-							<input class="btn btn-warning" type="submit" value="Update">
-						</form></td>
-					<td><form action="/travels/delete/${oneItem.id}" method="post">
-							<input type="hidden" name="_method" value="delete"> <input
-								class="btn btn-danger" type="submit" value="Delete">
-						</form></td>
-				</tr>
-			</c:forEach>
-		</tbody>
-	</table>
-	<h1>Add A Travel</h1>
-	<form:form action="/travel/new" method="post" modelAttribute="travel">
+	<h1 style="margin-left:630px;">Edit Expense</h1>
+	<form:form action="/travels/editt/{id}" method="get" modelAttribute="travel">
+	<input type="hidden" name="_method" value="put">
 		<p>
 			<form:label class="form-label" path="name">Name</form:label>
 			<form:errors path="name" />
-			<form:input class="form-control" path="name" />
+			<form:input class="form-control" path="name" value="${travel.name}" />
 		</p>
 
 		<p>
 			<form:label class="form-label" path="vendor">vendor</form:label>
 			<form:errors path="vendor" />
-			<form:input class="form-control" path="vendor" />
+			<form:input class="form-control" path="vendor" value="${travel.vendor}" />
 		</p>
 		<p>
 			<form:label class="form-label" path="amount">amount</form:label>
 			<form:errors path="amount" />
-			<form:input class="form-control" path="amount" />
+			<form:input class="form-control" path="amount" value="${travel.amount}"/>
 		</p>
 		<p>
 			<form:label class="form-label" path="description">Description</form:label>
 			<form:errors path="description" />
-			<form:textarea class="form-control" path="description" />
+			<form:textarea class="form-control" path="description" value="${travel.description }"/>
 		</p>
 		<input style="margin-left: 710px;" class="btn btn-success" type="submit" value="Submit" />
 	</form:form>
